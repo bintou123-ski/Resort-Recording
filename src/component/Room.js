@@ -6,7 +6,7 @@ function Room({room}) {
     console.log(room);
     const{name,images,slug,price}=room;
     return (
-       <section className="room">
+       <article className="room">
            <div className="img-container">
                <img src={images[0]} alt ="single room"/>
                <div className="price-top">
@@ -17,7 +17,7 @@ function Room({room}) {
                className="btn-primary room-link">Click to access SingleRoom</Link>
            </div>
            <p className="room-info">{name}</p>
-       </section>
+       </article>
     )
 }
 
