@@ -13,7 +13,6 @@ import RoomList from './RoomList';
                         }
                         return (
                             <div>
-                               hello from RoomContainer
                                <RoomFilter rooms={rooms}/>
                               <RoomList rooms={sortedRooms}/>
                             </div>
